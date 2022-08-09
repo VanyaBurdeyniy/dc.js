@@ -222,6 +222,8 @@ export class BarChart extends StackMixin {
     _calculateBarWidth () {
         if (this._barWidth === undefined) {
             const numberOfBars = this.xUnitCount();
+            const numberOfBarsTest = this.xUnitCount();
+            console.log(numberOfBarsTest - 1);
 
             // please can't we always use rangeBands for bar charts?
             if (this.isOrdinal() && this._gap === undefined) {
