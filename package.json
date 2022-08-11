@@ -73,7 +73,7 @@
   },
   "scripts": {
     "test": "grunt test",
-    "preinstall": "npm install && grunt build copy"
+    "prepare": "npm install && grunt build copy"
   },
   "browser": "dist/dc.js",
   "main": "dist/dc.js",
